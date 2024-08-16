@@ -10,16 +10,17 @@ def main():
     
     # Iterating through brightness pixels
     brightness = to_brightness(pixels)
-...
 ```
 Then, run it in terminal to get the ascii art
 ```
 python to_ascii.py
 ```
 ## Tools
-- PILLOW
+- Pillow
 ## Development plan
+- Testing on various image size and resolution
 - Argument passing
+- More options in image transfomation (colours, styles, etc.)
 - GUI
 - Web-based
-- Tweaks in image transfomation
+
