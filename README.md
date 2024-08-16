@@ -1,6 +1,6 @@
 # ASCII Art
 ## Usage
-Modify the directory to image in the to_acsii.py script
+Modify the directory to image in the to_acsii.py script  
 Then, run it in terminal to get the ascii art
 ```
 python to_ascii.py
