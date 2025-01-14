@@ -1,5 +1,11 @@
 from PIL import Image
+import numpy as np
 
 with Image.open("images/boat.jpg") as im:
+    # Load image
     print("Successfully loaded image!")
-    print(f"Image size: {im.size[0]} x {im.size[1]}")
+    width, height = im.size
+    print(f"Image size: {width} x {height}")
+
+
+    
